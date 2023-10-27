@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Js Arrays</h1>
+      <p id="demo1"></p>
+        <p id="demo2"></p>
+           <script>
+            const num = [100, 20, 15, 84, 35];
+              let size = num.length;
+                document.getElementById("demo1").innerHTML = num;
+           num.sort(function(a, b){return b - a});
+           document.getElementById("demo2").innerHTML = num;      
+           </script>
+</body>
+</html>
